@@ -3,7 +3,8 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://aardvarkcompliance.co',
+  site: 'https://oresoftware.github.io',
+  base: '/aardvark-compliance',
   server: {
     port: 4322,
   },
